@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Microservice2Controller {
 	@RequestMapping("/microservice2")
 	public String hello() {
+		System.out.println("okay");
 		return "micro2";
 	}
 }
